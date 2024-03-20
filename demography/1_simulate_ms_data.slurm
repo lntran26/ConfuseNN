@@ -10,7 +10,7 @@
 #SBATCH --mail-user=lnt@arizona.edu
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --time=10:00:00
+#SBATCH --time=6:00:00
 #SBATCH --array=1-10
 
 # micromamba activate flagel_demography_cnn
