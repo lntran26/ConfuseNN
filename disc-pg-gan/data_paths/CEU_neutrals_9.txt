@@ -1,0 +1,4 @@
+/xdisk/rgutenk/lnt/projects/disc-pg-gan/slim_selection_simulation_new/output_processed/distances_CEU_neutral_300_09.npy
+/xdisk/rgutenk/lnt/projects/disc-pg-gan/slim_selection_simulation_new/output_processed/distances_regions_CEU_neutral_300_09.npy
+/xdisk/rgutenk/lnt/projects/disc-pg-gan/slim_selection_simulation_new/output_processed/matrices_CEU_neutral_300_09.npy
+/xdisk/rgutenk/lnt/projects/disc-pg-gan/slim_selection_simulation_new/output_processed/matrices_regions_CEU_neutral_300_09.npy
