@@ -1,0 +1,17 @@
+name: disc-pg-gan
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.6
+  - pip
+  - numpy==1.17.2
+  - msprime==0.7.4
+  - SLiM==3.6
+  - matplotlib
+  - ipykernel
+  - pip:
+    - tensorflow==2.2.0
+    - scikit-allel
+    - protobuf==3.20.*
+    - pyslim
+    - scikit-learn
