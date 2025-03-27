@@ -10,5 +10,10 @@ Specifically, we designed a suite of scramble tests where each test deliberately
 We apply these tests to three networks designed to infer demographic history and natural selection, 
 identifying the fundamental population genomic features that drive inference for each network.
 
-### Early result reference
+### Preprint
+[bioRxiv](https://www.biorxiv.org/content/10.1101/2025.03.24.644668v1)
+
+### Conference presentations
 * [TAGC24 Poster](https://github.com/lntran26/lntran26.github.io/blob/4e461eaf627614b75ec47d9a8f72fd5491880fb9/files/TAGC_24_Tran_final.pdf)
+* [ISMB24 MLCSB COSI Talk](https://github.com/lntran26/lntran26.github.io/blob/1a5497584df962c9d5643b013523ecaf0fa8c2ef/files/ISMB24.pdf)
+* Upcoming: [EVO-WIBO Poster](https://www.zoology.ubc.ca/evo-wibo/index.html)
