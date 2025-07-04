@@ -10,7 +10,14 @@ We applied our approach to three published CNNs for positive selection and demog
 
 ### Reproduce
 
-To reproduce the result for each of the three CNNs evaluated in this work, use scripts provided in the 3 respective subdirs. Each subdir includes further instruction for reproducing each case.
+To reproduce the result for each of the three CNNs evaluated in this work, 
+refer to the three respective subdirs, each with their own specifications.
+
+### Example code for haplotype matrix permutations
+
+For ease of adoptability, we have provided the code to perform all permutations described in our paper in `minimal_example.ipynb`, with visualization.
+How these permutations are applied in practice likely varies depending on the simulation and training procedure.
+For examples of how we customized our permutation approach to each CNN, refer to corresponding subdir with further descriptions.
 
 ### Extra: Conference presentations of this work
 * [TAGC24 Poster](https://github.com/lntran26/lntran26.github.io/blob/4e461eaf627614b75ec47d9a8f72fd5491880fb9/files/TAGC_24_Tran_final.pdf)
