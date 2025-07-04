@@ -14,4 +14,4 @@ Further instruction is provided in the `README.md` inside this dir.
 ### Extra notes
 The trained and fine-tuned discriminator was provided by Riley et al., which includes the `CEU_19_230410.out` file and the `CEU_19_230410_230830_finetuneAug23` dir.
 
-All other `.py` scripts in this dir are code dependencies copied as is from https://github.com/mathiesonlab/disc-pg-gan to run trained the model.
+All other `.py` scripts in this dir are code dependencies copied as is from https://github.com/mathiesonlab/disc-pg-gan to run the trained model.
