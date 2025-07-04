@@ -1,19 +1,15 @@
-## ConfuseNN: Interpreting convolutional neural networks inferences in population genomics by data shuffling
-
-Convolutional neural network (CNN) is an increasingly popular supervised machine learning approach that has been applied to many inference tasks in population genetics. 
-Under this framework, population genomic variation data are typically represented as 2D images with sampled haplotypes as rows and segregating sites as columns. 
-While many published studies reported promising performance of CNNs on various inference tasks, 
-understanding which features in the data were picked up by the CNNs and meaningfully contributed to the reported performance remains challenging. 
-Here we propose a novel approach to interpreting CNN performance motivated by population genetic theory on genomic data. 
-Specifically, we designed a suite of scramble tests where each test deliberately disrupts a feature in the genomic image data 
-(e.g. allele frequency, linkage disequilibrium, etc.) to assess how each feature affects the CNN performance. 
-We apply these tests to three networks designed to infer demographic history and natural selection, 
-identifying the fundamental population genomic features that drive inference for each network.
+## Interpreting supervised machine learning inferences in population genomics using haplotype matrix permutations
+In this work, we introduce a systematic permutation approach that progressively disrupts population genetics features within input test haplotype matrices, including linkage disequilibrium, haplotype structure, and allele frequencies.
+By measuring performance degradation after each permutation, the importance of each feature can be assessed.
 
 ### Preprint
 [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.03.24.644668v1)
 
-### Conference presentations
+### Reproduce
+
+To reproduce the result for each of the three CNNs evaluated in this work, use scripts provided in the 3 respective subdirs. Each subdir includes further instruction for reproducing each case.
+
+### Extra: Conference presentations of this work
 * [TAGC24 Poster](https://github.com/lntran26/lntran26.github.io/blob/4e461eaf627614b75ec47d9a8f72fd5491880fb9/files/TAGC_24_Tran_final.pdf)
 * [ISMB24 MLCSB COSI Talk](https://github.com/lntran26/lntran26.github.io/blob/1a5497584df962c9d5643b013523ecaf0fa8c2ef/files/ISMB24.pdf)
-* Upcoming: [EVO-WIBO Poster](https://www.zoology.ubc.ca/evo-wibo/index.html)
+* [EVO-WIBO Poster](https://github.com/lntran26/lntran26.github.io/blob/master/files/Tran_ConfuseNN_final.pdf)
