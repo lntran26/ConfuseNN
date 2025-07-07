@@ -5,7 +5,7 @@ Here we introduce a systematic permutation approach that progressively disrupts 
 By measuring performance degradation after each permutation, the importance of each feature can be assessed.
 We applied our approach to three published CNNs for positive selection and demographic history inference.
 
-In this repository, we use the term "ConfuseNN" to refer to our permutation approach, since we are attempting to "confuse" the networks by testing them on disrupted data.
+We informally named our permutation approach "ConfuseNN", since we are attempting to "confuse" the networks by testing them on disrupted data.
 
 ### Preprint
 [bioRxiv](https://www.biorxiv.org/content/10.1101/2025.03.24.644668v1)
